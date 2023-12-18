@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Josefin+Sans:ital,wght@1,300&family=Roboto&family=Tiro+Devanagari+Hindi&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa-comment-dots{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    font-size: 40px;
+    position: fixed;
+    color: #ffffff;
+    background-color: #000042;
+    padding: 1%;
+    border-radius: 50px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.next1 {
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0%;
+}
+
+.next1 ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* .next1 ul li {} */
+
+.next1 ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: normal;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    border-right: 1px solid gray;
+    padding-right: 5px;
+    font-family: sans-serif;
+    line-height: 4px;
+}
+
+
+.next1 .para1 {
+    color: rgb(0, 0, 66);
+    font-size: 10px;
+    float:right;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.daddy{
+    display: flex;
+    position: relative;
+    position: fixed;
+    top: 4%;
+    background-color: #ffffff;
+    padding-left: 1.3%;
+}
+ 
+.daddy .lion{
+    width: 12%;
+}
+.daddy .lion1 img{
+   width: 100%;
+}
+
+.daddy .lion1{
+    width: 14%;
+    position: absolute;
+    left: 14%;
+    top: 23%;
+}
+
+.daddy .lion2{
+    position: absolute;
+    left: 34%;
+    top: 35%;
+}
+
+.daddy .lion2 input{
+    width: 300%;
+    padding: 5% 0% 5% 2%;
+    border-radius: 5px;
+    border: 1px solid #3e3e3e;
+}
+
+.daddy .lion3{
+    display: flex;
+    position: absolute;
+    right: 1%;
+    justify-content: space-between;
+    width: 25%;
+    top: 42%;
+}
+
+.daddy .lion3 p{
+    font-size: 14px;
+}
+
+.in {
+    width: 100%;
+    height: 60px;
+    background-color: #fbf9f7;
+    line-height: 3;
+    display: flex;
+    position: fixed;
+    top: 15%;
+    padding-left: 1%;
+}
+
+.in1 {
+    width: 70%;
+}
+
+.in1 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.in1 ul li a {
+    text-decoration: none;
+    letter-spacing: 0.14px;
+    color:#000042;
+}
+
+.in2 {
+    width: 30%;
+}
+
+.in2 img {
+    width: 70%;
+    padding-top: 10px;
+    height: 40px;
+    float:right;
+}
+
+
+.web {
+    height: 800px;
+    color: #fff;
+    width: 100%;
+    background-color: #000042;
+
+}
+
+.web h3 {
+
+    text-align: center;
+    line-height: 6;
+    font-size: 26px;
+
+}
+.web .none iframe{
+    float: right;
+    padding-right: 30px;
+}
+
+.web .none {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 60px;
+    padding-left: 55px;
+
+}
+
+.web .none1 {
+    margin-top: 30px;
+    width: 50%;
+    padding-left: 55px;
+    font-size: 24px;
+}
+
+.pan img {
+    width: 100%;
+}
+
+.world {
+    width: 100%;
+    text-align: center;
+
+}
+
+.world .get1 {
+    font-size: 26px;
+    padding-top: 25px;
+}
+
+.world .get2 {
+    padding-top: 40px;
+    font-size: 48px;
+
+}
+
+.world .get3 {
+    font-size: 26px;
+    padding-top: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.all-boxes {
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.all-boxes .box {
+    width: 50%;
+
+}
+
+.box img {
+    width: 90%;
+    padding: 70px 0px 50px 50px;
+}
+
+.country {
+
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.country .china {
+    width: 50%;
+}
+
+.china img {
+
+    padding: 70px 0px 50px 50px;
+
+    width: 90%;
+
+}
+
+.down1 {
+    width: 100%;
+}
+
+.down1 .dell {
+    font-size: 48px;
+    text-align: center;
+    line-height: 68.5714px;
+    font-weight: 400;
+}
+
+.down1 .dell1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.down2 {
+    width: 100%;
+}
+
+.down2 img {
+    width: 100%;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+.loop {
+    width: 100%;
+    height: 1070px;
+    background-color: #f0fcf8;
+    margin-top: 50px;
+}
+
+.loop .while {
+    font-size: 48px;
+    text-align: center;
+    color: #000042;
+    padding-top: 100px;
+}
+.loop .while1{
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: normal;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.loop .while2{
+    width: 100%;
+}
+.while2 img{
+    width: 85%;
+    margin-top: 50px;
+    padding-left: 15%;
+}
+.loop .while3{
+
+width: 100%;
+}
+
+.while3 img{
+    
+    width: 85%;
+    padding-left: 15%;
+}
+
+img{
+    width: 100%;
+}
+footer{
+    background-color: #000042;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.drone{
+    width: 15%;
+}
+.drone h2{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 2em;
+    font-family: 'Inter', sans-serif;
+}
+
+.drone li{
+    list-style-type: none;
+    
+    
+}
+
+
+.drone ul li a{   
+     justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 3;
+     font-family: 'Inter', sans-serif;;
+}
+.drone ul li a:hover{
+    text-decoration: underline;
+}
+.drone1{
+    width: 60%;
+    color: #ffffff;
+}
+.drone1 img{
+    width: 20%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 15%;
+}
+.drone1 P{
+    margin-top: 12%;
+    padding-left: 60%;
+}
+.drone2{
+    width: 100%;
+
+}
+.sony{
+    width: 100%;
+    background-color: #000042;
+    height: 100px;
+    color: white;
+    display: flex;
+    margin-top: 2px;
+}
+.sony .sony1{
+    width: 60%;
+}
+.sony1 ul{
+    display: flex;
+    list-style-type: none;
+    line-height: 55px;
+}
+.sony1 ul li{
+
+}
+
+.sony1 ul li a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: #fff;
+}
+.sony .sony2{
+    width: 20%;
+}
+
+.sony2 .mori{
+    padding-top: 25px;
+}
+.sony .mori2{
+    width:20% ;
+    margin-top: 10px;
+    float: left;  
+      font-size: 25px;
+
+}
+
